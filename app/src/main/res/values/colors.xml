@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="font">#FF003333</color>
+    <color name="maddie">#FF290436</color>
+    <color name="forecast">#FFA38D10</color> 
+    <color name="dim1">#00000000</color>
+    <color name="dim2">#44000000</color>
+    <color name="dim3">#88000000</color>
+    <color name="dim4">#AA000000</color>
+    <color name="dim5">#EE000000</color>
+    </resources>

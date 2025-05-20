@@ -1,0 +1,4 @@
+#Fri Feb 28 09:12:12 EST 2020
+base.0=/Users/pcarff/CODE/Android/steampunk-clock/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

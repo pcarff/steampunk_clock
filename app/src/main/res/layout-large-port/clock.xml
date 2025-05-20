@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/dkwalnut">
+    
+    <LinearLayout 
+        android:id="@+id/main_center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="2dp">
+            <fragment android:name="net.carff.android.steampunkclock.ui.TimeFragment"
+                android:id="@+id/time_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            
+            <fragment android:name="net.carff.android.steampunkclock.ui.DateFragment"
+                android:id="@+id/date_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:id="@+id/space2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"/>
+	            <fragment android:name="net.carff.android.steampunkclock.ui.LocationFragment"
+		            android:id="@+id/location_fragment"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"/>
+	            <fragment android:name="net.carff.android.steampunkclock.ui.CurrentFragment"
+		            android:id="@+id/current_fragment"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"/>
+	       <LinearLayout
+                android:id="@+id/space2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"/>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <fragment android:name="net.carff.android.steampunkclock.ui.ForecastFragment"
+                android:id="@+id/forecast_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    </LinearLayout>
+        
+    </LinearLayout>
+   
+</LinearLayout>

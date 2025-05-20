@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Steampunk Clock</string>
+    <string name="time_title">Time</string>
+    <string name="date_title">Date</string>
+    <string name="location">Location</string>
+    <string name="city">NO CITY</string>
+    
+    <string name="current">Current</string>
+    <string name="day">Day</string>
+    
+    
+    <string name="hour_title">Hour</string>
+    <string name="minute_title">Min</string>
+    <string name="second_title">Sec</string>
+    
+    <string name="day_title">Day</string>
+    <string name="month_title">Month</string>
+    <string name="year_title">Year</string>
+    
+    <string name="forecast_title">Forecast</string>
+    <string name="forecast_one_title">1 Day</string>
+    <string name="forecast_two_title">2 Day</string>
+    <string name="forecast_three_title">3 Day</string>
+    <string name="forecast_one_temp">hi/lo</string>
+    <string name="forecast_two_temp">hi/lo</string>
+    <string name="forecast_three_temp">hi/lo</string>
+    
+    <string name="dimbutton1">1</string>
+    <string name="dimbutton2">2</string>
+    <string name="dimbutton3">3</string>
+    <string name="dimbutton4">4</string>
+    <string name="dimbutton5">5</string>
+    
+    <string name="hr12">12 Hour</string>
+    <string name="hr24">24 Hour</string>
+    
+    <string name="api_url_front">http://free.worldweatheronline.com/feed/weather.ashx?key=</string>
+    <string name="api_url_key">2caae8650b235855120110</string>
+    <string name="api_url_middle">&amp;q=</string>
+    <string name="api_url_end">&amp;num_of_days=4&amp;includeLocation=yes&amp;format=xml</string>
+</resources>

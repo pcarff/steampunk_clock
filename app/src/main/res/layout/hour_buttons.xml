@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hour Mode "/>
+    <RadioGroup
+        android:id="@+id/hour_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+           <RadioButton 
+               android:id="@+id/hr12"
+               android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hr12"
+            android:checked="true"
+               />
+           <RadioButton 
+               android:id="@+id/hr24"
+               android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hr24"
+               />
+       </RadioGroup>
+</LinearLayout>
+        

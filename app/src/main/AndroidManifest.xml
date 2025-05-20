@@ -1,0 +1,71 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.carff.android.steampunkclock"
+    android:versionCode="12"
+    android:versionName="2.12">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    
+    <application 
+        android:name=".SteampunkClockApplication"
+        android:label="@string/app_name"
+        android:icon="@drawable/clock_icon"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        >
+        <activity
+            android:label="@string/app_name"
+            android:name=".ui.HomeActivity">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="steampunkclock"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".service.WeatherDataFetchService">
+        </service>
+        
+        <receiver
+            android:name=".widget.SteampunkClockTimeWidgetProvider"
+            android:label="Steampunk Time Widget">
+            <intent-filter>
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="net.carff.android.STEAMPUNKCLOCK_TIME_WIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/time_widget"/>
+        </receiver>
+        <receiver
+            android:name=".widget.SteampunkClockDateWidgetProvider"
+            android:label="Steampunk Date Widget">
+            <intent-filter>
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="net.carff.android.STEAMPUNKCLOCK_DATE_WIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/date_widget"/>
+        </receiver>
+    </application>
+
+</manifest>
