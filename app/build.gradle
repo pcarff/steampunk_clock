@@ -1,13 +1,17 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 35
-    buildToolsVersion "29.0.3"
+    namespace "net.carff.android.steampunkclock"
+    compileSdk 35
 
     defaultConfig {
         applicationId "net.carff.android.steampunkclock"
-        minSdkVersion 34
-        targetSdkVersion 35
+        minSdk 34
+        targetSdk 35
+    }
+
+    buildFeatures {
+        buildConfig true
     }
 
     buildTypes {
@@ -19,5 +23,6 @@ android {
 }
 
 dependencies {
-    implementation 'com.android.support:support-v4:+'
+    implementation 'androidx.core:core:1.13.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }
