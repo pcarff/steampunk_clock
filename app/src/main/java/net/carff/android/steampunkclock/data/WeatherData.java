@@ -8,8 +8,12 @@ public class WeatherData {
     private int tempF = 0;
     private String tempC = null;
     private String humidity = null;
+    private String feelsLike = null;
+    private String pressure = null;
+    private String uvIndex = null;
     private String currentIcon = null;
     private String wind = null;
+    private String windDirection = null;
     private int forecast_counter = 0;
 
     public void setCity(String city) {
@@ -42,6 +46,22 @@ public class WeatherData {
 
     public void setWind(String wind) {
         this.wind = wind;
+    }
+
+    public void setWindDirection(String windDirection) {
+        this.windDirection = windDirection;
+    }
+
+    public void setFeelsLike(String feelsLike) {
+        this.feelsLike = feelsLike;
+    }
+
+    public void setPressure(String pressure) {
+        this.pressure = pressure;
+    }
+
+    public void setUvIndex(String uvIndex) {
+        this.uvIndex = uvIndex;
     }
 
     public void setForecastCounter(int counter) {
@@ -82,6 +102,22 @@ public class WeatherData {
 
     public String getWind() {
         return this.wind;
+    }
+
+    public String getWindDirection() {
+        return this.windDirection;
+    }
+
+    public String getFeelsLike() {
+        return this.feelsLike;
+    }
+
+    public String getPressure() {
+        return this.pressure;
+    }
+
+    public String getUvIndex() {
+        return this.uvIndex;
     }
 
     public int getForecastCounter() {

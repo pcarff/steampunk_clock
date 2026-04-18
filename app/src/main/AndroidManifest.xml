@@ -5,7 +5,9 @@
 
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     
@@ -16,18 +18,36 @@
         android:name=".SteampunkClockApplication"
         android:label="@string/app_name"
         android:icon="@drawable/clock_icon"
-        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
         android:usesCleartextTraffic="true"
         >
         <activity
             android:label="@string/app_name"
-            android:name=".ui.HomeActivity"
+            android:name=".ui.HamDashboardActivity"
             android:exported="true"
+            android:screenOrientation="fullSensor"
             android:resizeableActivity="true">
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.WeatherActivity"
+            android:label="Weather Station" />
+        <activity
+            android:name=".ui.GpsAnalysisActivity"
+            android:label="GNSS Analysis" />
+        <activity
+            android:name=".ui.MapActivity"
+            android:label="World Map" />
+        <activity
+            android:name=".ui.SolarActivity"
+            android:label="Propagation" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".ui.HomeActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>

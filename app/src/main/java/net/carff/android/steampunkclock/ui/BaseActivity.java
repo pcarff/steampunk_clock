@@ -11,4 +11,8 @@ public abstract class BaseActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         UIUtils.isGoogleTV(this);
     }
+
+    public void onBackButtonClick(android.view.View view) {
+        onBackPressed();
+    }
 }

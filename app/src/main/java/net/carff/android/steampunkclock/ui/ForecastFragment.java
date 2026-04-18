@@ -82,38 +82,48 @@ public class ForecastFragment extends Fragment {
         }
     }
 
+    @Override
+    public void onDetach() {
+        super.onDetach();
+    }
+
     public void updateDisplay() {
-        getActivity().runOnUiThread(new Runnable() { // from class: net.carff.android.steampunkclock.ui.ForecastFragment.1
-            @Override // java.lang.Runnable
+        if (getActivity() == null) return;
+        getActivity().runOnUiThread(new Runnable() {
+            @Override
             public void run() {
                 try {
-                    int day1LoTemp = ((SteampunkClockApplication) ForecastFragment.this.getActivity().getApplication()).getLow(1);
-                    int day2LoTemp = ((SteampunkClockApplication) ForecastFragment.this.getActivity().getApplication()).getLow(2);
-                    int day3LoTemp = ((SteampunkClockApplication) ForecastFragment.this.getActivity().getApplication()).getLow(3);
-                    int day1HiTemp = ((SteampunkClockApplication) ForecastFragment.this.getActivity().getApplication()).getHigh(1);
-                    int day2HiTemp = ((SteampunkClockApplication) ForecastFragment.this.getActivity().getApplication()).getHigh(2);
-                    int day3HiTemp = ((SteampunkClockApplication) ForecastFragment.this.getActivity().getApplication()).getHigh(3);
-                    String oneDayTitle = ((SteampunkClockApplication) ForecastFragment.this.getActivity().getApplication()).getDayOfWeek(1);
-                    ForecastFragment.this.dayOneTitle.setText(oneDayTitle);
-                    String twoDayTitle = ((SteampunkClockApplication) ForecastFragment.this.getActivity().getApplication()).getDayOfWeek(2);
-                    ForecastFragment.this.dayTwoTitle.setText(twoDayTitle);
-                    String threeDayTitle = ((SteampunkClockApplication) ForecastFragment.this.getActivity().getApplication()).getDayOfWeek(3);
-                    ForecastFragment.this.dayThreeTitle.setText(threeDayTitle);
-                    TextView textView = ForecastFragment.this.dayOneTemp;
-                    textView.setText(day1LoTemp + "/" + day1HiTemp);
-                    TextView textView2 = ForecastFragment.this.dayTwoTemp;
-                    textView2.setText(day2LoTemp + "/" + day2HiTemp);
-                    TextView textView3 = ForecastFragment.this.dayThreeTemp;
-                    textView3.setText(day3LoTemp + "/" + day3HiTemp);
-                    int oneDay = ((SteampunkClockApplication) ForecastFragment.this.getActivity().getApplication()).getCondition(1);
-                    int twoDay = ((SteampunkClockApplication) ForecastFragment.this.getActivity().getApplication()).getCondition(2);
-                    int threeDay = ((SteampunkClockApplication) ForecastFragment.this.getActivity().getApplication()).getCondition(3);
-                    ForecastFragment.this.oneDayForecastIcon.setImageResource(UIUtils.getWeatherIconResource(oneDay));
-                    ForecastFragment.this.twoDayForecastIcon.setImageResource(UIUtils.getWeatherIconResource(twoDay));
-                    ForecastFragment.this.threeDayForecastIcon.setImageResource(UIUtils.getWeatherIconResource(threeDay));
-                } catch (Exception e) {
-                }
+                    if (getActivity() == null) return;
+                    SteampunkClockApplication app = (SteampunkClockApplication) getActivity().getApplication();
+                    
+                    // Forecast usually has 4+ days (0=today, 1=tomorrow, 2=next, 3=next)
+                    // We check if we have enough data
+                    if (app == null) return;
+                    
+                    // Safety: find how many days we have
+                    // In a real app we'd expose size, but here we'll just try/catch carefully
+                    
+                    updateDay(app, 1, dayOneTitle, dayOneTemp, oneDayForecastIcon);
+                    updateDay(app, 2, dayTwoTitle, dayTwoTemp, twoDayForecastIcon);
+                    updateDay(app, 3, dayThreeTitle, dayThreeTemp, threeDayForecastIcon);
+                } catch (Exception e) {}
             }
         });
+    }
+
+    private void updateDay(SteampunkClockApplication app, int index, TextView title, TextView temp, ImageView icon) {
+        try {
+            String dayTitle = app.getDayOfWeek(index);
+            int low = app.getLow(index);
+            int high = app.getHigh(index);
+            int cond = app.getCondition(index);
+            
+            title.setText(dayTitle != null ? dayTitle.toUpperCase() : "---");
+            temp.setText(low + "/" + high);
+            icon.setImageResource(UIUtils.getWeatherIconResource(cond));
+            icon.setVisibility(View.VISIBLE);
+        } catch (Exception e) {
+            icon.setVisibility(View.INVISIBLE);
+        }
     }
 }

@@ -50,6 +50,24 @@ public class SteampunkClockApplication extends Application {
         return this.mWeatherData.getCurrentCondition();
     }
 
+    public void setHumidity(String h) { this.mWeatherData.setHumidity(h); }
+    public String getHumidity() { return this.mWeatherData.getHumidity(); }
+
+    public void setWind(String w) { this.mWeatherData.setWind(w); }
+    public String getWind() { return this.mWeatherData.getWind(); }
+
+    public void setWindDirection(String wd) { this.mWeatherData.setWindDirection(wd); }
+    public String getWindDirection() { return this.mWeatherData.getWindDirection(); }
+
+    public void setFeelsLike(String f) { this.mWeatherData.setFeelsLike(f); }
+    public String getFeelsLike() { return this.mWeatherData.getFeelsLike(); }
+
+    public void setPressure(String p) { this.mWeatherData.setPressure(p); }
+    public String getPressure() { return this.mWeatherData.getPressure(); }
+
+    public void setUvIndex(String u) { this.mWeatherData.setUvIndex(u); }
+    public String getUvIndex() { return this.mWeatherData.getUvIndex(); }
+
     public void addForecast() {
         this.mForecastData.add(new ForecastData());
     }

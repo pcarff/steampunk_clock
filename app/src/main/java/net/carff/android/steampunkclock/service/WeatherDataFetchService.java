@@ -49,7 +49,7 @@ public class WeatherDataFetchService extends Service {
         Log.d(TAG, "Zip = " + this.zipCode);
         String fetchUrl = "";
         if (this.myLocation != null) {
-            fetchUrl = "https://api.open-meteo.com/v1/forecast?latitude=" + this.myLocation.getLatitude() + "&longitude=" + this.myLocation.getLongitude() + "&current_weather=true&daily=weathercode,temperature_2m_max,temperature_2m_min&temperature_unit=fahrenheit&timezone=auto";
+            fetchUrl = "https://api.open-meteo.com/v1/forecast?latitude=" + this.myLocation.getLatitude() + "&longitude=" + this.myLocation.getLongitude() + "&current=temperature_2m,relative_humidity_2m,apparent_temperature,wind_speed_10m,wind_direction_10m,weather_code&hourly=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min&temperature_unit=fahrenheit&windspeed_unit=mph&precipitation_unit=inch&timezone=auto";
         } else if (!this.zipCode.equals("00000")) {
             // Fallback if zipCode is known but location is null (though getZipCode sets location)
             // For now, we prefer myLocation directly
@@ -118,12 +118,18 @@ public class WeatherDataFetchService extends Service {
                 SteampunkClockApplication app = (SteampunkClockApplication) WeatherDataFetchService.this.getApplication();
                 app.clearForecast();
 
-                // Current weather
-                if (json.has("current_weather")) {
-                    JSONObject current = json.getJSONObject("current_weather");
-                    app.setTempF((int) Math.round(current.getDouble("temperature")));
-                    app.setCurrentCondition(mapWmoToWwo(current.getInt("weathercode")));
-                    Log.d(WeatherDataFetchService.TAG, "Current temp: " + app.getTempF() + ", code: " + app.getCurrentCondition());
+                // Current weather (new format)
+                if (json.has("current")) {
+                    JSONObject current = json.getJSONObject("current");
+                    app.setTempF((int) Math.round(current.getDouble("temperature_2m")));
+                    app.setHumidity(current.getString("relative_humidity_2m") + "%");
+                    app.setFeelsLike((int) Math.round(current.getDouble("apparent_temperature")) + "°F");
+                    int windDeg = current.getInt("wind_direction_10m");
+                    String windDir = getCardinalDirection(windDeg);
+                    app.setWind((int) Math.round(current.getDouble("wind_speed_10m")) + " mph");
+                    app.setWindDirection(windDir);
+                    app.setCurrentCondition(mapWmoToWwo(current.getInt("weather_code")));
+                    Log.d(WeatherDataFetchService.TAG, "Current parsed: " + app.getTempF() + ", Wind: " + app.getWind() + " " + app.getWindDirection());
                 }
 
                 // Forecast
@@ -154,6 +160,11 @@ public class WeatherDataFetchService extends Service {
                 Log.e(WeatherDataFetchService.TAG, "Error during JSON parsing ", e);
             }
             return false;
+        }
+
+        private String getCardinalDirection(int degrees) {
+            String[] directions = {"N", "NE", "E", "SE", "S", "SW", "W", "NW", "N"};
+            return directions[(int) Math.round(((double) degrees % 360) / 45)];
         }
 
         private int mapWmoToWwo(int wmoCode) {

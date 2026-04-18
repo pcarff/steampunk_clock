@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/weather_city_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WEATHER STATION"
+        android:textColor="#fff0bd"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Current Weather Centerpiece -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="12dp">
+        
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/brass_panel_bg"
+            android:padding="12dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/current_weather_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day_113" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Current Stats Grid -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginBottom="12dp">
+        
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center" android:background="@drawable/brass_panel_bg" android:padding="6dp" android:layout_marginEnd="4dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="💧 HUMID" android:textColor="#fff0bd" android:textSize="9sp" android:textStyle="bold"/>
+            <TextView android:id="@+id/stat_humidity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--%" android:textColor="#ffdd00" android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center" android:background="@drawable/brass_panel_bg" android:padding="6dp" android:layout_marginEnd="4dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="💨 WIND" android:textColor="#fff0bd" android:textSize="9sp" android:textStyle="bold"/>
+            <TextView android:id="@+id/stat_wind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-- mph" android:textColor="#ffdd00" android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center" android:background="@drawable/brass_panel_bg" android:padding="6dp" android:layout_marginEnd="4dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🌡️ FEELS" android:textColor="#fff0bd" android:textSize="9sp" android:textStyle="bold"/>
+            <TextView android:id="@+id/stat_feels" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--°F" android:textColor="#ffdd00" android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center" android:background="@drawable/brass_panel_bg" android:padding="6dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="⏲️ BARO" android:textColor="#fff0bd" android:textSize="9sp" android:textStyle="bold"/>
+            <TextView android:id="@+id/stat_pressure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="29.92" android:textColor="#ffdd00" android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3-DAY FORECAST"
+        android:textColor="#fff0bd"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/brass_panel_bg"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+        
+        <fragment android:name="net.carff.android.steampunkclock.ui.ForecastFragment"
+            android:id="@+id/weather_forecast_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK TO DASHBOARD"
+        android:onClick="onBackButtonClick"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#3d2b1f"
+        android:textColor="#fff0bd" />
+</LinearLayout>
