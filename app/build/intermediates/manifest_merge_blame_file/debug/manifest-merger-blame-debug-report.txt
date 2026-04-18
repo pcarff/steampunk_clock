@@ -5,140 +5,213 @@
 5    android:versionName="2.12" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="14"
-8-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="27" />
-9-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
+8        android:minSdkVersion="34"
+8-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="35" />
+9-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:7:5-66
-11-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:7:22-64
+11-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:7:5-66
+11-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:7:22-64
 12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-12-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:8:5-81
-12-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:8:22-78
+12-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:8:5-81
+12-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:8:22-78
 13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:10:5-67
-13-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:10:22-65
+13-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:10:5-67
+13-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:10:22-65
 14
 15    <uses-feature
-15-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:12:5-89
+15-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:12:5-89
 16        android:name="android.hardware.touchscreen"
-16-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:12:19-62
+16-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:12:19-62
 17        android:required="false" />
-17-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:12:63-87
+17-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:12:63-87
 18    <uses-feature
-18-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:13:5-90
+18-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:13:5-90
 19        android:name="android.hardware.location.gps"
-19-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:13:19-63
+19-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:13:19-63
 20        android:required="false" />
-20-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:13:64-88
+20-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:13:64-88
 21
-22    <application
-22-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:15:5-69:19
-23        android:name="net.carff.android.steampunkclock.SteampunkClockApplication"
-23-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:16:9-50
-24        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-24-->[com.android.support:support-compat:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:18-91
-25        android:debuggable="true"
-26        android:icon="@drawable/clock_icon"
-26-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:18:9-44
-27        android:label="@string/app_name"
-27-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:17:9-41
-28        android:testOnly="true"
-29        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-29-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:19:9-67
-30        <activity
-30-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:21:9-34:20
-31            android:name="net.carff.android.steampunkclock.ui.HomeActivity"
-31-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:23:13-44
-32            android:label="@string/app_name" >
-32-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:22:13-45
-33            <intent-filter>
-33-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:24:13-27:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:25:17-69
-34-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:25:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:26:17-77
-36-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:26:27-74
-37            </intent-filter>
-38            <intent-filter>
-38-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:28:13-33:29
-39                <action android:name="android.intent.action.VIEW" />
-39-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:29:17-68
-39-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:29:25-66
-40
-41                <category android:name="android.intent.category.DEFAULT" />
-41-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:30:17-75
-41-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:30:27-73
-42                <category android:name="android.intent.category.BROWSABLE" />
-42-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:31:17-77
-42-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:31:27-75
+22    <permission
+22-->[androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/transforms-3/7cd4e581a0e9e549edbd8989cdbd8966/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+23        android:name="net.carff.android.steampunkclock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/transforms-3/7cd4e581a0e9e549edbd8989cdbd8966/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/transforms-3/7cd4e581a0e9e549edbd8989cdbd8966/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="net.carff.android.steampunkclock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/transforms-3/7cd4e581a0e9e549edbd8989cdbd8966/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/transforms-3/7cd4e581a0e9e549edbd8989cdbd8966/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:15:5-73:19
+29        android:name="net.carff.android.steampunkclock.SteampunkClockApplication"
+29-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:16:9-50
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/transforms-3/7cd4e581a0e9e549edbd8989cdbd8966/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@drawable/clock_icon"
+33-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:18:9-44
+34        android:label="@string/app_name"
+34-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:17:9-41
+35        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+35-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:19:9-67
+36        <activity
+36-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:21:9-36:20
+37            android:name="net.carff.android.steampunkclock.ui.HomeActivity"
+37-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:23:13-44
+38            android:exported="true"
+38-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:24:13-36
+39            android:label="@string/app_name"
+39-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:22:13-45
+40            android:resizeableActivity="true" >
+40-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:25:13-46
+41            <intent-filter>
+41-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:26:13-29:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:27:17-69
+42-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:27:25-66
 43
-44                <data android:scheme="steampunkclock" />
-44-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:32:17-56
-44-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:32:23-54
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:28:17-77
+44-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:28:27-74
 45            </intent-filter>
-46        </activity>
-47
-48        <service android:name="net.carff.android.steampunkclock.service.WeatherDataFetchService" >
-48-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:35:9-37:19
-48-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:36:13-60
-49        </service>
-50
-51        <receiver
-51-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:39:9-53:20
-52            android:name="net.carff.android.steampunkclock.widget.SteampunkClockTimeWidgetProvider"
-52-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:40:13-68
-53            android:label="Steampunk Time Widget" >
-53-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:41:13-50
-54            <intent-filter>
-54-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:42:13-45:29
-55                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-55-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:43:17-44:80
-55-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:44:21-77
-56            </intent-filter>
-57            <intent-filter>
-57-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:46:13-49:29
-58                <action android:name="net.carff.android.STEAMPUNKCLOCK_TIME_WIDGET_UPDATE" />
-58-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:47:17-48:90
-58-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:48:21-87
-59            </intent-filter>
-60
-61            <meta-data
-61-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:50:13-52:54
-62                android:name="android.appwidget.provider"
-62-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:51:17-58
-63                android:resource="@xml/time_widget" />
-63-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:52:17-52
-64        </receiver>
-65        <receiver
-65-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:54:9-68:20
-66            android:name="net.carff.android.steampunkclock.widget.SteampunkClockDateWidgetProvider"
-66-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:55:13-68
-67            android:label="Steampunk Date Widget" >
-67-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:56:13-50
-68            <intent-filter>
-68-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:42:13-45:29
-69                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-69-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:43:17-44:80
-69-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:44:21-77
-70            </intent-filter>
-71            <intent-filter>
-71-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:61:13-64:29
-72                <action android:name="net.carff.android.STEAMPUNKCLOCK_DATE_WIDGET_UPDATE" />
-72-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:62:17-63:90
-72-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:63:21-87
-73            </intent-filter>
-74
-75            <meta-data
-75-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:50:13-52:54
-76                android:name="android.appwidget.provider"
-76-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:51:17-58
-77                android:resource="@xml/date_widget" />
-77-->/Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:52:17-52
-78        </receiver>
-79    </application>
-80
-81</manifest>
+46            <intent-filter>
+46-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:30:13-35:29
+47                <action android:name="android.intent.action.VIEW" />
+47-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:31:17-68
+47-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:31:25-66
+48
+49                <category android:name="android.intent.category.DEFAULT" />
+49-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:32:17-75
+49-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:32:27-73
+50                <category android:name="android.intent.category.BROWSABLE" />
+50-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:33:17-77
+50-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:33:27-75
+51
+52                <data android:scheme="steampunkclock" />
+52-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:34:17-56
+52-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:34:23-54
+53            </intent-filter>
+54        </activity>
+55
+56        <service android:name="net.carff.android.steampunkclock.service.WeatherDataFetchService" >
+56-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:37:9-39:19
+56-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:38:13-60
+57        </service>
+58
+59        <receiver
+59-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:41:9-56:20
+60            android:name="net.carff.android.steampunkclock.widget.SteampunkClockTimeWidgetProvider"
+60-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:42:13-68
+61            android:exported="true"
+61-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:44:13-36
+62            android:label="Steampunk Time Widget" >
+62-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:43:13-50
+63            <intent-filter>
+63-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:45:13-48:29
+64                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+64-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:46:17-47:80
+64-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:47:21-77
+65            </intent-filter>
+66            <intent-filter>
+66-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:49:13-52:29
+67                <action android:name="net.carff.android.STEAMPUNKCLOCK_TIME_WIDGET_UPDATE" />
+67-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:50:17-51:90
+67-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:51:21-87
+68            </intent-filter>
+69
+70            <meta-data
+70-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:53:13-55:54
+71                android:name="android.appwidget.provider"
+71-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:54:17-58
+72                android:resource="@xml/time_widget" />
+72-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:55:17-52
+73        </receiver>
+74        <receiver
+74-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:57:9-72:20
+75            android:name="net.carff.android.steampunkclock.widget.SteampunkClockDateWidgetProvider"
+75-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:58:13-68
+76            android:exported="true"
+76-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:60:13-36
+77            android:label="Steampunk Date Widget" >
+77-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:59:13-50
+78            <intent-filter>
+78-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:45:13-48:29
+79                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+79-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:46:17-47:80
+79-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:47:21-77
+80            </intent-filter>
+81            <intent-filter>
+81-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:65:13-68:29
+82                <action android:name="net.carff.android.STEAMPUNKCLOCK_DATE_WIDGET_UPDATE" />
+82-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:66:17-67:90
+82-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:67:21-87
+83            </intent-filter>
+84
+85            <meta-data
+85-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:53:13-55:54
+86                android:name="android.appwidget.provider"
+86-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:54:17-58
+87                android:resource="@xml/date_widget" />
+87-->/workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:55:17-52
+88        </receiver>
+89
+90        <provider
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+91            android:name="androidx.startup.InitializationProvider"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+92            android:authorities="net.carff.android.steampunkclock.androidx-startup"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+93            android:exported="false" >
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+94            <meta-data
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+96                android:value="androidx.startup" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+97        </provider>
+98
+99        <receiver
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+100            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+101            android:directBootAware="false"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+102            android:enabled="true"
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+103            android:exported="true"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+104            android:permission="android.permission.DUMP" >
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+106                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+109                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+112                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+115                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/transforms-3/eb507a5545858aedfd7f931b4877913c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+116            </intent-filter>
+117        </receiver>
+118    </application>
+119
+120</manifest>

@@ -1,226 +1,323 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:1:1-71:12
-INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:1:1-71:12
-INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:1:1-71:12
-INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:1:1-71:12
-MERGED from [com.android.support:support-v4:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/fd222fb2011e66d641e7a2737fef3324/support-v4-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/283d8a8c1b9f69920685c5e3d33d66d4/support-media-compat-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/a2618dc18ca07e54a88e1f24d6803537/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/9c5f3b5175d6729ba465ec2c02813385/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/cbaf6a0ba14e448f931c4916deffd204/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/88ec4b30f9b9e29ef3a15d6d3ffb6449/loader-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/191c7b8ab8d77f6a24f5ce842273178f/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/0764f579f46daee945f58aeb5abd3d1a/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/6964f6c2fba668c314484e4971a1a6d5/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/0e55d737439e7bb0d601ec0970cbdcd1/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/f2cfd7471df67e524c2f9aad99e9b242/customview-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/0270512caecd2afbe9f94d7ba00b4f2a/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/cdeb898e0fb7ed657473ea59897852bb/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/7970156688ae7a0ec2e1f1305182ea73/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/d329fbd7fc70709a9d574d7668c34aeb/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/8dc2f71e24361876f57f4e40952ea333/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/4b796eb9c599ac9ee2ee5d647d06fe9d/print-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/643c9b4c66d15fb06eb948b20e42a028/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/d1639c8bf8e94297abb50c581095ddbe/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/34ed514f010d4467a7c9fd5c12828aba/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/48abcef0e1bee900bfa1d45255147bf7/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/b2994ff42e1ca78d899b6efee1f8d9c5/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/db3babe6438b79b4bdeb44206751680a/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:1:1-71:12
-INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:1:1-71:12
-INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:1:1-71:12
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:1:1-79:12
+INJECTED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:1:1-79:12
+INJECTED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:1:1-79:12
+INJECTED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:1:1-79:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/b99dc8956b1126ddb43e93aa7c1547ce/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/1d581d1263fcb4d656e3cd6f8341c893/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/cf0536af5446b489c314f6959f7492bf/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/a9ba3607e1bd859b5476f2dbd01c9b97/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/c72b3037518580e51e0a4a40ce4f3189/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/107d9c50be1547a7f7f6f5498092fa4c/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/ac69850096f0a9d5036b6d24713fd79f/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/8091365021ccdbadfcda3542c7135162/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/9dc4fc7458fca88234b92340fde8960c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/bb8966fd3c46b0a44efb5b13ed256b23/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/b2b2dcfcf1638aa212c5ab5a02fa0d1c/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/a0e17a6b5c23241171cc6ea68cc7e2a5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/5fbcb521cccd5014031cf3b8637e82fc/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pcarff/.gradle/caches/8.12/transforms/7bba2bbfb0985c18cdb946e5b099df2a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/a12fb4953b56477c4d8db5cda5a5f221/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/pcarff/.gradle/caches/8.12/transforms/1e2febe580cae711b743a1e1c169b67c/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/pcarff/.gradle/caches/8.12/transforms/5369be7934f7408a31a9f2a89ef05dd7/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/pcarff/.gradle/caches/8.12/transforms/3219563007dc4285fe5bda1c39e4e643/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/pcarff/.gradle/caches/8.12/transforms/41422408faa05586383b555bb9e0d1bd/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/pcarff/.gradle/caches/8.12/transforms/a024dab824715873ef652e4f772b8fc4/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/25858316255ed5aa0734503a10f15aeb/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/bad48899cb3dda6a0d892c5e31b9d8fb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/0eace66bc629ccbe891e6820734a0dd2/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/97aec561c348ae08ab140d7c34a7a5e5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/pcarff/.gradle/caches/8.12/transforms/fdaadd0af036981a3ad0d7ac3262222e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/4da058c62d879d86766171f4bc5d35c6/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/pcarff/.gradle/caches/8.12/transforms/e860b2bee485b0e9b67c93581fccbded/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
 	package
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:2:5-47
-		INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:2:5-47
+		INJECTED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:4:5-31
-		INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:4:5-31
+		INJECTED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:1:11-69
 	android:versionCode
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:3:5-29
-		INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:3:5-29
+		INJECTED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:7:5-66
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:7:5-66
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:7:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:8:5-81
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:8:22-78
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:8:22-78
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:10:5-67
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:10:5-67
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:10:22-65
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:10:22-65
 uses-feature#android.hardware.touchscreen
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:12:5-89
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:12:5-89
 	android:required
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:12:63-87
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:12:63-87
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:12:19-62
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:12:19-62
 uses-feature#android.hardware.location.gps
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:13:5-90
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:13:5-90
 	android:required
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:13:64-88
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:13:64-88
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:13:19-63
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:13:19-63
 application
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:15:5-69:19
-MERGED from [com.android.support:support-compat:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:15:5-77:19
+INJECTED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:15:5-77:19
+MERGED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pcarff/.gradle/caches/8.12/transforms/7bba2bbfb0985c18cdb946e5b099df2a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pcarff/.gradle/caches/8.12/transforms/7bba2bbfb0985c18cdb946e5b099df2a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/pcarff/.gradle/caches/8.12/transforms/fdaadd0af036981a3ad0d7ac3262222e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/pcarff/.gradle/caches/8.12/transforms/fdaadd0af036981a3ad0d7ac3262222e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+		ADDED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:17:9-41
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:17:9-41
 	android:icon
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:18:9-44
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:18:9-44
 	android:theme
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:19:9-67
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:19:9-67
+	android:usesCleartextTraffic
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:20:9-44
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:16:9-50
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:16:9-50
 activity#net.carff.android.steampunkclock.ui.HomeActivity
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:21:9-34:20
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:22:9-37:20
 	android:label
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:22:13-45
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:23:13-45
+	android:exported
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:25:13-36
+	android:resizeableActivity
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:26:13-46
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:23:13-44
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:24:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:24:13-27:29
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:29:27-74
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:steampunkclock
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:28:13-33:29
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:31:13-36:29
 action#android.intent.action.VIEW
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:29:17-68
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:32:17-68
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:32:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:30:17-75
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:33:17-75
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:30:27-73
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:33:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:31:17-77
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:31:27-75
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:34:27-75
 data
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:32:17-56
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:35:17-56
 	android:scheme
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:32:23-54
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:35:23-54
+activity#net.carff.android.steampunkclock.ui.SettingsActivity
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:38:9-40:40
+	android:label
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:39:13-48
 service#net.carff.android.steampunkclock.service.WeatherDataFetchService
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:35:9-37:19
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:41:9-43:19
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:36:13-60
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:42:13-60
 receiver#net.carff.android.steampunkclock.widget.SteampunkClockTimeWidgetProvider
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:39:9-53:20
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:45:9-60:20
 	android:label
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:41:13-50
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:47:13-50
+	android:exported
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:48:13-36
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:40:13-68
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:46:13-68
 intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:42:13-45:29
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:49:13-52:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:43:17-44:80
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:50:17-51:80
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:44:21-77
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:51:21-77
 intent-filter#action:name:net.carff.android.STEAMPUNKCLOCK_TIME_WIDGET_UPDATE
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:46:13-49:29
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:53:13-56:29
 action#net.carff.android.STEAMPUNKCLOCK_TIME_WIDGET_UPDATE
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:47:17-48:90
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:54:17-55:90
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:48:21-87
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:55:21-87
 meta-data#android.appwidget.provider
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:50:13-52:54
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:57:13-59:54
 	android:resource
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:52:17-52
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:59:17-52
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:51:17-58
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:58:17-58
 receiver#net.carff.android.steampunkclock.widget.SteampunkClockDateWidgetProvider
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:54:9-68:20
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:61:9-76:20
 	android:label
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:56:13-50
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:63:13-50
+	android:exported
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:64:13-36
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:55:13-68
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:62:13-68
 intent-filter#action:name:net.carff.android.STEAMPUNKCLOCK_DATE_WIDGET_UPDATE
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:61:13-64:29
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:69:13-72:29
 action#net.carff.android.STEAMPUNKCLOCK_DATE_WIDGET_UPDATE
-ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:62:17-63:90
+ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:70:17-71:90
 	android:name
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml:63:21-87
+		ADDED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml:71:21-87
 uses-sdk
-INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
-INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:support-v4:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/fd222fb2011e66d641e7a2737fef3324/support-v4-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/fd222fb2011e66d641e7a2737fef3324/support-v4-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/283d8a8c1b9f69920685c5e3d33d66d4/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/283d8a8c1b9f69920685c5e3d33d66d4/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/a2618dc18ca07e54a88e1f24d6803537/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/a2618dc18ca07e54a88e1f24d6803537/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/9c5f3b5175d6729ba465ec2c02813385/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/9c5f3b5175d6729ba465ec2c02813385/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/cbaf6a0ba14e448f931c4916deffd204/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/cbaf6a0ba14e448f931c4916deffd204/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/88ec4b30f9b9e29ef3a15d6d3ffb6449/loader-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/88ec4b30f9b9e29ef3a15d6d3ffb6449/loader-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/191c7b8ab8d77f6a24f5ce842273178f/viewpager-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/191c7b8ab8d77f6a24f5ce842273178f/viewpager-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/0764f579f46daee945f58aeb5abd3d1a/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/0764f579f46daee945f58aeb5abd3d1a/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/6964f6c2fba668c314484e4971a1a6d5/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/6964f6c2fba668c314484e4971a1a6d5/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/0e55d737439e7bb0d601ec0970cbdcd1/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/0e55d737439e7bb0d601ec0970cbdcd1/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/f2cfd7471df67e524c2f9aad99e9b242/customview-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/f2cfd7471df67e524c2f9aad99e9b242/customview-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/0270512caecd2afbe9f94d7ba00b4f2a/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/0270512caecd2afbe9f94d7ba00b4f2a/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/cdeb898e0fb7ed657473ea59897852bb/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/cdeb898e0fb7ed657473ea59897852bb/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/7970156688ae7a0ec2e1f1305182ea73/runtime-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/7970156688ae7a0ec2e1f1305182ea73/runtime-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/d329fbd7fc70709a9d574d7668c34aeb/documentfile-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/d329fbd7fc70709a9d574d7668c34aeb/documentfile-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/8dc2f71e24361876f57f4e40952ea333/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/8dc2f71e24361876f57f4e40952ea333/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/4b796eb9c599ac9ee2ee5d647d06fe9d/print-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/4b796eb9c599ac9ee2ee5d647d06fe9d/print-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/643c9b4c66d15fb06eb948b20e42a028/interpolator-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/643c9b4c66d15fb06eb948b20e42a028/interpolator-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/d1639c8bf8e94297abb50c581095ddbe/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/d1639c8bf8e94297abb50c581095ddbe/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/34ed514f010d4467a7c9fd5c12828aba/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/34ed514f010d4467a7c9fd5c12828aba/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/48abcef0e1bee900bfa1d45255147bf7/livedata-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/48abcef0e1bee900bfa1d45255147bf7/livedata-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/b2994ff42e1ca78d899b6efee1f8d9c5/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/b2994ff42e1ca78d899b6efee1f8d9c5/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/db3babe6438b79b4bdeb44206751680a/runtime-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/db3babe6438b79b4bdeb44206751680a/runtime-1.1.1/AndroidManifest.xml:20:5-44
-INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
-INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
+INJECTED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml
+INJECTED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/b99dc8956b1126ddb43e93aa7c1547ce/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/b99dc8956b1126ddb43e93aa7c1547ce/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/1d581d1263fcb4d656e3cd6f8341c893/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/1d581d1263fcb4d656e3cd6f8341c893/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/cf0536af5446b489c314f6959f7492bf/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/cf0536af5446b489c314f6959f7492bf/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/a9ba3607e1bd859b5476f2dbd01c9b97/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/a9ba3607e1bd859b5476f2dbd01c9b97/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/c72b3037518580e51e0a4a40ce4f3189/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/c72b3037518580e51e0a4a40ce4f3189/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/107d9c50be1547a7f7f6f5498092fa4c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/107d9c50be1547a7f7f6f5498092fa4c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/ac69850096f0a9d5036b6d24713fd79f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/ac69850096f0a9d5036b6d24713fd79f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/8091365021ccdbadfcda3542c7135162/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/8091365021ccdbadfcda3542c7135162/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/9dc4fc7458fca88234b92340fde8960c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/9dc4fc7458fca88234b92340fde8960c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/bb8966fd3c46b0a44efb5b13ed256b23/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/bb8966fd3c46b0a44efb5b13ed256b23/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/b2b2dcfcf1638aa212c5ab5a02fa0d1c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/b2b2dcfcf1638aa212c5ab5a02fa0d1c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/a0e17a6b5c23241171cc6ea68cc7e2a5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/a0e17a6b5c23241171cc6ea68cc7e2a5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/5fbcb521cccd5014031cf3b8637e82fc/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/5fbcb521cccd5014031cf3b8637e82fc/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pcarff/.gradle/caches/8.12/transforms/7bba2bbfb0985c18cdb946e5b099df2a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pcarff/.gradle/caches/8.12/transforms/7bba2bbfb0985c18cdb946e5b099df2a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/a12fb4953b56477c4d8db5cda5a5f221/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/a12fb4953b56477c4d8db5cda5a5f221/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/pcarff/.gradle/caches/8.12/transforms/1e2febe580cae711b743a1e1c169b67c/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/pcarff/.gradle/caches/8.12/transforms/1e2febe580cae711b743a1e1c169b67c/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/pcarff/.gradle/caches/8.12/transforms/5369be7934f7408a31a9f2a89ef05dd7/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/pcarff/.gradle/caches/8.12/transforms/5369be7934f7408a31a9f2a89ef05dd7/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/pcarff/.gradle/caches/8.12/transforms/3219563007dc4285fe5bda1c39e4e643/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/pcarff/.gradle/caches/8.12/transforms/3219563007dc4285fe5bda1c39e4e643/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/pcarff/.gradle/caches/8.12/transforms/41422408faa05586383b555bb9e0d1bd/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/pcarff/.gradle/caches/8.12/transforms/41422408faa05586383b555bb9e0d1bd/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/pcarff/.gradle/caches/8.12/transforms/a024dab824715873ef652e4f772b8fc4/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/pcarff/.gradle/caches/8.12/transforms/a024dab824715873ef652e4f772b8fc4/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/25858316255ed5aa0734503a10f15aeb/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/25858316255ed5aa0734503a10f15aeb/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/bad48899cb3dda6a0d892c5e31b9d8fb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/bad48899cb3dda6a0d892c5e31b9d8fb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/0eace66bc629ccbe891e6820734a0dd2/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/0eace66bc629ccbe891e6820734a0dd2/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/97aec561c348ae08ab140d7c34a7a5e5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/97aec561c348ae08ab140d7c34a7a5e5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/pcarff/.gradle/caches/8.12/transforms/fdaadd0af036981a3ad0d7ac3262222e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/pcarff/.gradle/caches/8.12/transforms/fdaadd0af036981a3ad0d7ac3262222e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/4da058c62d879d86766171f4bc5d35c6/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/pcarff/.gradle/caches/8.12/transforms/4da058c62d879d86766171f4bc5d35c6/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/pcarff/.gradle/caches/8.12/transforms/e860b2bee485b0e9b67c93581fccbded/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/pcarff/.gradle/caches/8.12/transforms/e860b2bee485b0e9b67c93581fccbded/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
-		INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
+		INJECTED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
-		ADDED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/pcarff/CODE/Android/steampunk-clock/app/src/main/AndroidManifest.xml
+		INJECTED from /workspaces/steampunk_clock/app/src/main/AndroidManifest.xml
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#net.carff.android.steampunkclock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#net.carff.android.steampunkclock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/pcarff/.gradle/caches/8.12/transforms/577f73e330f309e4ebc8f2752e2383b7/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/pcarff/.gradle/caches/8.12/transforms/fdaadd0af036981a3ad0d7ac3262222e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/pcarff/.gradle/caches/8.12/transforms/fdaadd0af036981a3ad0d7ac3262222e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/pcarff/.gradle/caches/8.12/transforms/b3cb98ac75de8a009367166577d4ec0d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

@@ -1,0 +1,670 @@
+[
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_time_widget_nixies.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/time_widget_nixies.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_386.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_386.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_119.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_119.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_date_nixies_w_year.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/date_nixies_w_year.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-xhdpi_ic_action_search.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-xhdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-land_forecast_page.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-land/forecast_page.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_248.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_248.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_395.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_395.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_326.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_326.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_263.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_263.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_179.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_179.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_hour_buttons.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/hour_buttons.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_317.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_317.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_clock.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/clock.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-land_clock.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-land/clock.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_371.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_371.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_185.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_185.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_248.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_248.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_179.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_179.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_335.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_335.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_oak.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/oak.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-port_time.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-port/time.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-large-land_clock.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-large-land/clock.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_350.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_350.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_302.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_302.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_date.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/date.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-sw600dp-port_clock.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-sw600dp-port/clock.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_356.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_356.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-port_date.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-port/date.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-port_location_page.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-port/location_page.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_296.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_296.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_311.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_311.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_362.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_362.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/xml_date_widget.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/xml/date_widget.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_oneam.jpg.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/oneam.jpg"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_386.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_386.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_time_nixies.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/time_nixies.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_284.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_284.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_number_plate_sm.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/number_plate_sm.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-sw600dp-port_date.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-sw600dp-port/date.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_320.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_320.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_brasswscrews.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/brasswscrews.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_forecast_portholes.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/forecast_portholes.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_332.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_332.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_308.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_308.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_317.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_317.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_185.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_185.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/xml_time_widget.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/xml/time_widget.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-large-port_date.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-large-port/date.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_143.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_143.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_116.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_116.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_sixam.jpg.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/sixam.jpg"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_182.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_182.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_twoam.jpg.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/twoam.jpg"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_281.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_281.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_sevenam.jpg.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/sevenam.jpg"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_392.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_392.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_323.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_323.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_395.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_395.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_burl.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/burl.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_293.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_293.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-land_time_date_page.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-land/time_date_page.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-sw600dp-land_clock.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-sw600dp-land/clock.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_119.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_119.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_radiobutton.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/radiobutton.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_fiveam.jpg.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/fiveam.jpg"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_date_widget.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/date_widget.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-large_clock.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-large/clock.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_365.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_365.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_mahogany.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/mahogany.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_326.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_326.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-mdpi_ic_action_search.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-mdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_374.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_374.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_311.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_311.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_date_nixies.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/date_nixies.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-large-long-land-television_clock.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-large-long-land-television/clock.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_362.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_362.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_377.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_377.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_227.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_227.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_200.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_200.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_113.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_113.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_temperature_nixies.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/temperature_nixies.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_314.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_314.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_353.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_353.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_temp_plate_sm.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/temp_plate_sm.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_314.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_314.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_eightam.jpg.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/eightam.jpg"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_329.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_329.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_122.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_122.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_368.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_368.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_dkwalnut.jpg.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/dkwalnut.jpg"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_activity_settings.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-sw600dp_clock.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-sw600dp/clock.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-port_time_date_page.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-port/time_date_page.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_323.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_323.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_xlongtitleplate.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/xlongtitleplate.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_359.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_359.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_200.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_200.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_182.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_182.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_176.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_176.png"
+    },
+    {
+        "merged": "net.carff.android.steampunkclock.app-debug-15:/layout-port_time.xml.flat",
+        "source": "net.carff.android.steampunkclock.app-main-17:/layout-port/time.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-large-port_time.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-large-port/time.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_location.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/location.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_clock_icon.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/clock_icon.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_260.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_260.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_current.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/current.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-sw600dp-port_time.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-sw600dp-port/time.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_389.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_389.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_266.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_266.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_122.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_122.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_299.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_299.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_329.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_329.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_353.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_353.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_260.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_260.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_zeroam.jpg.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/zeroam.jpg"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_305.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_305.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_230.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_230.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_338.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_338.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_divider_on.jpg.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/divider_on.jpg"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_nineam.jpg.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/nineam.jpg"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_392.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_392.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_threeam.jpg.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/threeam.jpg"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_time.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/time.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-port_forecast_page.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-port/forecast_page.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_116.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_116.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_ic_action_search.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_date_widget_nixies.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/date_widget_nixies.xml"
+    },
+    {
+        "merged": "net.carff.android.steampunkclock.app-debug-15:/layout_time.xml.flat",
+        "source": "net.carff.android.steampunkclock.app-main-17:/layout/time.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_365.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_365.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_302.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_302.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_299.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_299.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_266.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_266.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_350.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_350.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-large-port_clock.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-large-port/clock.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_time_nixies_w_sec.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/time_nixies_w_sec.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_227.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_227.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_335.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_335.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_389.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_389.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_263.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_263.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_number_plate.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/number_plate.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_113.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_113.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_338.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_338.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_176.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_176.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_377.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_377.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_368.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_368.png"
+    },
+    {
+        "merged": "net.carff.android.steampunkclock.app-debug-15:/layout-sw600dp-port_time.xml.flat",
+        "source": "net.carff.android.steampunkclock.app-main-17:/layout-sw600dp-port/time.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_374.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_374.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_fouram.jpg.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/fouram.jpg"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_time_widget.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/time_widget.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_371.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_371.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_320.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_320.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_305.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_305.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_356.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_356.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-land_location_page.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-land/location_page.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_284.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_284.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout_forecast.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout/forecast.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/layout-port_clock.xml.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/layout-port/clock.xml"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_308.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_308.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_230.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_230.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_293.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_293.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_296.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_296.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_143.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_143.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_day_332.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/day_332.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_359.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_359.png"
+    },
+    {
+        "merged": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-debug-15:/drawable-hdpi_night_281.png.flat",
+        "source": "/home/pcarff/.gradle/daemon/8.12/net.carff.android.steampunkclock.app-main-17:/drawable-hdpi/night_281.png"
+    }
+]

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Steampunk HamClock
+Comment=Start Steampunk HamClock in Kiosk Mode
+Exec=lxterminal -e /home/pcarff/Workspaces/steampunk_hamclock/launch_steampunk.sh
+Icon=/home/pcarff/Workspaces/steampunk_hamclock/frontend/digits/8.jpg
+Terminal=true
+Categories=Utility;

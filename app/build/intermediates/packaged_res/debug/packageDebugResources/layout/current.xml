@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="vertical"
+	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:gravity="center"
+	android:layout_weight="0">
+	<TextView 
+	    android:id="@+id/current_title"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+	    android:textColor="@color/font"
+	    android:textSize="25dp"
+	    android:background="@drawable/xlongtitleplate"
+	    android:text="@string/current"/>
+	<LinearLayout 
+  	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  	    android:paddingTop="10dp">
+  		<LinearLayout 
+	  	    android:orientation="vertical"
+			android:layout_width="wrap_content"
+	  		android:layout_height="100dp"
+	  		android:gravity="center_vertical">
+	  		<include layout="@layout/temperature_nixies"
+		   		android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+		   		android:gravity="center"/>
+	  	</LinearLayout>
+		<LinearLayout 
+	  	    android:orientation="vertical"
+			android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:gravity="center_horizontal">
+	  		<TextView
+			    android:id="@+id/day_title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:textColor="@color/forecast"
+			    android:textSize="25dp"
+			    android:text="@string/day"/>
+		   	<ImageView 
+		    	android:id="@+id/current_forecast"
+		    	android:layout_width="wrap_content" 
+		    	android:layout_height="wrap_content" 
+		    	android:padding="10dp"
+		    	android:src="@drawable/day_113">
+		    </ImageView>
+		</LinearLayout>
+	</LinearLayout>	
+</LinearLayout>

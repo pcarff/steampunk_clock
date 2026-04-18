@@ -12,6 +12,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Parcelable;
 import androidx.core.app.NotificationCompat;
+import android.view.Menu;
+import android.view.MenuItem;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import android.util.Log;
@@ -108,6 +110,43 @@ public class HomeActivity extends BaseActivity {
             });
             checkIntentParameters();
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        updateBackground();
+    }
+
+    private void updateBackground() {
+        android.content.SharedPreferences prefs = android.preference.PreferenceManager.getDefaultSharedPreferences(this);
+        String bg = prefs.getString("background", "dkwalnut");
+        int resId = getResources().getIdentifier(bg, "drawable", getPackageName());
+        if (resId != 0) {
+            View clockRoot = findViewById(R.id.clock_root);
+            if (clockRoot != null) {
+                clockRoot.setBackgroundResource(resId);
+            }
+            View clockInner = findViewById(R.id.clock_inner_root);
+            if (clockInner != null) {
+                clockInner.setBackgroundResource(resId);
+            }
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        menu.add(0, 1, 0, "Settings");
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == 1) {
+            startActivity(new Intent(this, SettingsActivity.class));
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     private void checkIntentParameters() {

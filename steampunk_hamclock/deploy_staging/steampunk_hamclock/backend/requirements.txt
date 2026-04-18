@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pyserial
+pynmea2
+requests
+python-multipart
